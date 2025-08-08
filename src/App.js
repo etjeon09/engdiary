@@ -428,7 +428,6 @@ const App = () => {
       const regex = new RegExp(`\\b${noun}\\b`, 'gi');
       if (regex.test(processedSentence)) {
         const beforeNoun = processedSentence.substring(0, processedSentence.toLowerCase().indexOf(noun.toLowerCase()));
-        const afterNoun = processedSentence.substring(processedSentence.toLowerCase().indexOf(noun.toLowerCase()) + noun.length);
         
         // Check if there's already an article before the noun
         const hasArticle = /\b(a|an|the|my|your|his|her|its|our|their)\s+$/i.test(beforeNoun);
@@ -647,7 +646,6 @@ const App = () => {
     const year = today.getFullYear();
     const month = today.getMonth();
     const firstDay = new Date(year, month, 1);
-    const lastDay = new Date(year, month + 1, 0);
     const startDate = new Date(firstDay);
     startDate.setDate(startDate.getDate() - firstDay.getDay());
     
