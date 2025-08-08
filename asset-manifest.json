@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/english-diary-app/static/css/main.465ffad6.css",
+    "main.js": "/english-diary-app/static/js/main.3c5263c2.js",
+    "index.html": "/english-diary-app/index.html",
+    "main.465ffad6.css.map": "/english-diary-app/static/css/main.465ffad6.css.map",
+    "main.3c5263c2.js.map": "/english-diary-app/static/js/main.3c5263c2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.465ffad6.css",
+    "static/js/main.3c5263c2.js"
+  ]
+}
